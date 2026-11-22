@@ -1,0 +1,24 @@
+{
+    "version": "1.4.14",
+    "description": "Grow a Windows partition using free space on the same disk, without reformatting",
+    "homepage": "https://expand.scsoi.com",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://expand.scsoi.com/terms"
+    },
+    "url": "https://github.com/shuyingegit/scsexpand/releases/download/v1.4.14/scsexpand-1.4.14-setup-win64.exe",
+    "hash": "3c65feec5d2ae66fd78add233baf089503531efbe63ffea067321f2ca9cc85cd",
+    "checkver": {
+        "url": "https://github.com/shuyingegit/scsexpand/releases.atom",
+        "regex": "releases/tag/v?([0-9.]+)\""
+    },
+    "installer": {
+        "file": "scsexpand-1.4.14-setup-win64.exe",
+        "args": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    }
+}
