@@ -1,0 +1,24 @@
+{
+    "version": "1.0.39",
+    "description": "Find duplicate files on Windows by content hash and see how much space they waste",
+    "homepage": "https://dedup.scsoi.com",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://dedup.scsoi.com/terms"
+    },
+    "url": "https://github.com/shuyingegit/scsdedup/releases/download/v1.0.39/scsdedup-1.0.39-setup-win64.exe",
+    "hash": "d1e92a87c89b5c0d00e24d741e261dbb6e21a38f1dd5afae15cdbd461c3c0f1c",
+    "checkver": {
+        "url": "https://github.com/shuyingegit/scsdedup/releases.atom",
+        "regex": "releases/tag/v?([0-9.]+)\""
+    },
+    "installer": {
+        "file": "scsdedup-1.0.39-setup-win64.exe",
+        "args": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    }
+}
